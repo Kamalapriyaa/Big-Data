@@ -6,6 +6,11 @@ Triggers:
   - Type: Push
     Branches:
       - new
+  - Type: PULLREQUEST
+    Branches:
+      - main
+    Events:
+      - REVISION
 
 # Required - Define action configurations.
 Actions:
